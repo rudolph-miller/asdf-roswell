@@ -22,7 +22,7 @@
   :components ((:module "src"
                 :components
                 ((:file "asdf-roswell"))))
-  :description "ASDF Integration of Roswell Scripts."
+  :description "ASDF Integration for Roswell Scripts."
   :long-description
   #.(with-open-file (stream (merge-pathnames
                              #p"README.md"
